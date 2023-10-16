@@ -11,28 +11,20 @@
     <title>RocketNews</title>
 </head>
 <body>
-    <header>
-        <div id="f1">
-            <img src="./SVG's/image.svg" alt="Erro ao baixar a imagem">
-        </div>    
-    </header>
+    <div class="container">
+        <img src="./SVGs/logo.svg" alt="Erro ao baixar a imagem" class="logo">
 
-    <div id="f2">
-        <img src="./SVG's/logo.svg" alt="Erro ao baixar a imagem">
+        <h3 id="tgreen">Atualize ideias e informações em 5 minutos.</h3>
 
-        <h3 id="tgreen">atualize ideias e informações em 5 minutos.</h3>
         <div><strong>
             <p id="texto">
-                tudo que você precisa saber para começar seu dia bem e informado
+                Tudo que você precisa saber para começar seu dia bem e informado
             </p>
         </strong></div>
 
-        <div>
+        <div class="textDialog">
             <p id="texto">
-                notícias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. <br> perfeita para se preparar para codar &#9749;
-
-                <br>
-                <br>
+                Notícias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. Perfeita para se preparar para codar &#9749;
             </p>
         </div>
 
@@ -40,7 +32,12 @@
             <p id="texto">
                 Insira seu e-mail:
             </p>
-            <br><br><br><br><br><br>
+
+            <form action="">
+                <input type="email" name="rocketmail" id="emails" placeholder="oi@Rocketseat.com.br" pattern="^\d{@Rocketseat.com.br}" title="email correto é 'Rocketseat.com.br'" required>
+
+                <button class="button"> <img src="./SVGs/send.svg" alt=""></button>
+               </form>
         </div>
 
         <div>
@@ -49,16 +46,5 @@
             </a>
         </div>
     </div>
-
-   <form action="">
-    <div>
-        <input type="email" name="rocketmail" id="rocket" placeholder="oi@Rocketseat.com.br" pattern="^\d{@Rocketseat.com.br}" title="email correto é 'Rocketseat.com.br'" required>
-        <button id="butt"> <img src="./SVG's/send.svg" alt=""></button>
-    </div>
-   </form>
-
-
-
-    
 </body>
 </html>

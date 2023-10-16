@@ -1,8 +1,75 @@
-#f1{
-    position: absolute;
-    margin-top: -9px;
-    margin-left: 22%;
-    z-index: 1;
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./SVGs/image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.textDialog{
+    text-overflow: clip;
+    width: 80vw;
+}
+
+.container{
+    border: 1px solid #121214;
+    background-color: #121214;
+    height: 85vh;
+    width: 80vw;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+form{
+    display: flex;
+}
+
+#emails{
+    width: 500px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-left: 3px solid #04D361;
+    background-color: #A8A8A8;    
+    border-radius: 5px;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 5px;
+    outline: 0;
+    transition: 0.2s;
+}
+
+#emails:focus{
+    transform: scaleX(1.1);
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 0.2s;
+}
+
+
+button{
+    background-color: #8257E5;
+    outline: 0;
+    border: none;
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #53349c;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 #f2{
@@ -30,33 +97,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-#rocket{
-    position: absolute;
-    outline: 0;
-    margin-top: 22em;
-    padding: 2px;
-    height: 43px;
-    width: 798px;
-    z-index: 3;
-    background-color: #A8A8A8;
-    border-left: 9px solid #04D361;
-    border-radius: 5px;
-    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-#butt{
-    background-color: #8257E5;
-    border: none;
-    position: absolute;
-    z-index: 4;
-    float: right;
-    height: 48px;
-    width: 48px;
-    left: 773px;
-    top: 302px;
-}
 
 #fl1{
     color: #8257e5;
